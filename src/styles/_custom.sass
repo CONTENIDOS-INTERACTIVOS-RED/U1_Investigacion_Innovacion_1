@@ -1,0 +1,190 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.container.tarjeta
+  overflow-y: hidden
+
+.banner-interno__fondo
+  background-color: $color-banner-interno-fondo !important
+
+.home-main-title
+  font-size: 18px
+  font-weight: 700
+
+.home-title
+  font-size: 38px !important
+  font-weight: 900 !important
+
+.brounded
+  border-radius: 16px !important
+
+.brounded-sm
+  border-radius: 8px !important
+
+.bg-color
+  &-1
+    background-color: #D8F5F5 
+  &-2
+    background-color: #FEE3D8
+  &-3
+    background-color: #EAF2FB 
+  &-4
+    background-color: #E2E9F3
+  &-5
+    background-color: #FEF8E7
+
+  &-sintesis
+    background-color: #F9F9F9
+  &-white
+    background-color: #fff
+
+.border-top.color-primario
+  border-top: 5px solid $color-primario !important
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: center
+  &-2
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/bg/bg-slider.png") !important
+    background-position: bottom
+
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 268px
+    object-fit: cove
+
+.acordion__header
+  background-color: lighten($color-terciario, 24%) !important
+
+.acordion__header--active
+  background-color: $color-terciario !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: lighten($color-terciario, 25%) !important
+
+.anexo__texto
+  p, strong
+    font-size: 14px !important
+    color: #000 !important
+
+.bloque-texto-c
+  padding: 34px !important
+  p
+    font-size: 22px  !important
+    line-height: 26.4px !important
+    font-weight: 700 !important
+  i
+    color: $color-primario !important
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+  border: 2px solid rgba(0,0,0,0.1)
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+.tabs-content
+  background-color: #FDF9F3
+
+.material-complementario
+  p,a
+    font-size: 1rem !important
+  a
+    text-decoration: none
+    color: $color-sistema-texto
+
+.img-infografica
+  background-color: transparent
+
+.img-infografica__item, .img-infografica-b__item
+  width: 48px !important
+  @media screen and (max-width: $bp-max-sm)
+    width: 38px !important
+  
+
+.img-infografica__item__dot:before, .img-infografica-b__item__dot:before
+  opacity: 1
+  border: 0px solid #FEFAF3
+  background-color: #F8BC17
+
+.img-infografica__card, .img-infografica-b__card
+  width: 450px !important
+  
+.img-infografica__item__numero
+  font-weight: 900
+
+
+
+.lista-ol--cuadro__vineta
+  background-color: $color-secundario
+  color: #000
+  min-width: 32px
+  min-width: 28px
+  height: 28px
+
+  span
+    font-size: 0.85em
