@@ -22,9 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad presenta una guía sobre el diseño, planeación y gestión de proyectos. Inicia con los datos generales del equipo de producción y responsables de contenido. La Unidad 1 desarrolla los fundamentos del diseño de proyectos, incluyendo su definición, tipos, ciclo de vida y principios de gestión. También aborda la identificación de necesidades, formulación de objetivos SMART, establecimiento de indicadores y resultados esperados. Se exploran metodologías como PMBOK, PRINCE2 y Scrum, además de recursos tecnológicos y bibliográficos actualizados que fortalecen las competencias en la gestión de proyectos.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada proyecto es una oportunidad para transformar ideas en realidad y dejar un impacto positivo en el mundo.
+              p.descripcion.mb-4 Esta unidad aborda la investigación científica como un proceso sistemático y objetivo para generar conocimiento, destacando su rigor metodológico y su impacto en diversos contextos. Se exploran sus principios fundamentales, clasificaciones según objetivo, profundidad y tipo de datos, y métodos cualitativos, cuantitativos y mixtos. Además, se resalta la importancia del investigador como sujeto que estudia fenómenos específicos con protocolos verificables. Comprender estos conceptos y desarrollar habilidades investigativas permite diseñar estudios, fortalecer capacidades críticas y analíticas, y aportar soluciones innovadoras, esenciales en el entorno laboral y la sociedad actual.
+                br
+                br
+                |#[b Cada pregunta abre una puerta al conocimiento, impulsando a transformar y comprender el mundo.] 
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

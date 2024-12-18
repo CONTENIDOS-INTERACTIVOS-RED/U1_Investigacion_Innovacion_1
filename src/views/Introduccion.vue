@@ -2,19 +2,23 @@
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    p(data-aos="fade-up") En esta primera unidad, titulada Fundamentos del diseño de proyectos, se abordan los conceptos esenciales para entender qué es un proyecto, sus tipos, y las fases que componen su ciclo de vida, también conocerán cómo identificar necesidades y oportunidades para el diseño de proyectos, así como a establecer objetivos, indicadores y resultados esperados.
+    p.mb-4 Seguramente, a lo largo de su vida, se han presentado fenómenos que despiertan curiosidad o problemas que lo llevan a investigar más a fondo. Esta necesidad natural de aprender y encontrar respuestas es esencial para el progreso de la sociedad.
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        .p-4(style="background-color: #cff7e4 ")
+          p.mb-0 La investigación científica formaliza este proceso de adquisición y construcción de conocimiento. En esta unidad, se presentan los conceptos básicos, características y métodos que sustentan la investigación en diversos contextos. En un mundo que plantea constantes desafíos, comprender cómo se genera y valida el conocimiento resulta clave para cualquier profesional. Además, desarrollar habilidades investigativas fortalece la capacidad crítica y analítica en las actividades cotidianas.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/1.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2.png', alt='')
+      .col-lg-8
+        p.mb-4 Al finalizar esta unidad, se comprenderán los principios de la investigación científica y se podrán aplicar diversos enfoques metodológicos para diseñar investigaciones en el área de desempeño. Estas habilidades representan un elemento diferenciador en el entorno laboral, valorado tanto para la toma de decisiones informadas como para generar soluciones innovadoras o destacar frente a las existentes.
+        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #ecd4fe " )
+            .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/curso/temas/3.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 Se sugiere contar con conocimientos básicos en lógica y lectura crítica para aprovechar plenamente este aprendizaje. Se invita a explorar las oportunidades que ofrece la investigación científica, donde cada pregunta representa una oportunidad para descubrir y entender mejor el entorno.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        .bg-color-1.p-4(data-aos="fade-up")
-          p.mb-0 Al finalizar, se espera que los estudiantes comprendan los principios del diseño de proyectos y sean capaces de formular ideas claras y estructuradas para su desarrollo en el contexto de su área profesional. Este resultado de aprendizaje tiene como objetivo que adquieran las bases necesarias para participar activamente en el diseño, gestión y evaluación de proyectos, conocimientos vitales en el ejercicio profesional.
-      .col-lg-4
-        figure(data-aos="fade-up")
-          img(src='@/assets/curso/intro/1.png', alt='Texto que describa la imagen')
-      .col-lg-4
-        .bg-color-2.p-4(data-aos="fade-up")
-          p.mb-0 Al finalizar, se espera que los estudiantes comprendan los principios del diseño de proyectos y sean capaces de formular ideas claras y estructuradas para su desarrollo en el contexto de su área profesional. Este resultado de aprendizaje tiene como objetivo que adquieran las bases necesarias para participar activamente en el diseño, gestión y evaluación de proyectos, conocimientos vitales en el ejercicio profesional.
 </template>
 
 <script>

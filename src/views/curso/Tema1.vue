@@ -1,243 +1,329 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Definición de proyecto y tipos de proyectos'")
+  BannerInterno(:subTitulo="'1.Definición y características de la investigación científica'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
-
-    .row.mb-5
-      .col-lg-8
-        .bg-color-2.p-4(data-aos="fade-left").mb-4
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 El término "proyecto" se refiere a una actividad destinada a ofrecer una solución específica y única a un problema o necesidad identificada en algún contexto (personal, social o empresarial). Esta solución puede materializarse en forma de un producto o servicio, ya sea tangible o intangible. A continuación, se presenta una caracterización de los proyectos y los distintos tipos que existen.
-
-        p(data-aos="fade-left") La gestión de proyectos no es una actividad reciente. Sin embargo, fue en la década de los ochenta cuando las metodologías de gestión comenzaron a adoptarse ampliamente en áreas organizativas más allá de las operaciones o la ingeniería.
-
-      .col-lg-4
-        figure
-            img(src="@/assets/curso/tema1/2.png", data-aos="zoom-in")
-
-    .row.mb-5
-      .col-lg-4
-        figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/3.png", alt="Texto que describa la imagen")
-      .col-lg-8
-        LineaTiempoD.color-primario.large
-          p(numero="1" titulo="Inicio histórico") El primer proyecto reconocido data de aproximadamente 2550 a.C., con la construcción de la pirámide de Gizeh.
-          p(numero="2" titulo="Siglo XX: primeras estandarizaciones") En los años sesenta, surgieron esfuerzos para estandarizar la gestión de proyectos con la creación de organismos internacionales. En la década de los ochenta, estas metodologías comenzaron a adoptarse ampliamente, marcando un hito en la disciplina al dejar de asociarse únicamente con la gestión técnica, posicionando al director de proyectos como un gestor integral.
-          div(numero="3" titulo="Década de los ochenta a 2010") 
-            p - Evolución significativa impulsada por la globalización y la creciente complejidad organizativa. 
-            p - Aparición de guías como el PMBOK y la metodología PRINCE2, que consolidaron buenas prácticas y procedimientos. 
-            p - Expansión de la gestión de proyectos a sectores como telecomunicaciones, construcción e informática. 
-            p - Con el avance de internet en los años noventa, los proyectos se volvieron interconectados, facilitando la gestión global pero planteando retos de coordinación y comunicación.
-          div(numero="4" titulo="Siglo XXI: digitalización") 
-            p - La digitalización y herramientas como Microsoft Project transformaron la gestión de proyectos, permitiendo monitoreo y control en tiempo real. 
-            p - Aparición de metodologías ágiles como Scrum y Kanban, diseñadas para entornos dinámicos que requieren flexibilidad.
-          div(numero="5" titulo="Actualidad") 
-            p Hoy en día, la gestión de proyectos es esencial en sectores como tecnología, finanzas, educación y salud. Las herramientas digitales y metodologías avanzadas impulsan la innovación y el cumplimiento de objetivos estratégicos, asegurando una coordinación más eficiente de tareas, recursos y equipos.
-
-    h2(data-aos="fade-left") ¿Qué es un proyecto?
-    p(data-aos="fade-left") Un proyecto es un esfuerzo temporal con un inicio y un fin definidos, que se realiza con el propósito de crear un producto, servicio o resultado único. Los proyectos surgen para dar respuesta a una necesidad específica, ya sea la solución de un problema, la explotación de una oportunidad o el desarrollo de una idea. Cada proyecto es distinto, y su ejecución implica la planificación y organización de recursos limitados para alcanzar objetivos claros dentro de plazos y presupuestos determinados.
-
-    .bg-full-width.bg-fondo-1
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-4
-            figure(data-aos="fade-right")
-              img(src="@/assets/curso/tema1/4.png", alt="")
-          .col-lg-8
-            .bg-color-3.p-4(data-aos="fade-left")
-              .row.align-items-start
-                .col-lg-auto
-                  img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
-                .col-lg
-                  p.mb-0 Un proyecto debe permitir transformar una idea general en un producto o servicio específico. Sin embargo, no es necesario que siempre culmine con la producción o implementación de dicho producto o servicio, ya que puede limitarse únicamente a su diseño. Es decir, un proyecto puede enfocarse solo en el diseño, o en la ejecución, o en ambos aspectos. Por ejemplo, en el desarrollo de aplicaciones, un proyecto podría centrarse en la creación conceptual, identificando las necesidades del cliente, alineándose con su estrategia, recopilando requisitos y definiendo las funcionalidades. No obstante, la implementación final del diseño podría ser realizada por otra organización.
-
-        p(data-aos="fade-left") Al examinar las definiciones ofrecidas por las metodologías de gestión de proyectos más establecidas, como PMBOK o PRINCE2, es posible identificar ciertos elementos comunes que pueden considerarse características fundamentales.
-
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-6.mb-4(data-aos="zoom-in-up")
-            .custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/6.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0 «Un proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único». PMBOK (PMI, 2013, pag. 3)
-          .col-lg-6.mb-4(data-aos="zoom-in-down")
-            .custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/7.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0 «Un proyecto es una organización temporal que se crea con el propósito de entregar uno o más productos comerciales según un Business Case acordado». PRINCE2 (OGC, 2009)
-
-    p(data-aos="fade-left") Las características de los proyectos son: 
-
-    .bg-color-3.px-4.pt-5.mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-8
-          ImagenInfografica.color-secundario
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/infografias/1b.png', alt='', style="max-width: 840px;").mx-auto
-
-
-            .bg-color-white.p-3(x="48%" y="83%" numero="+")
-              h5 01. Temporalidad
-              p Todo proyecto tiene un inicio y un fin claramente definidos. Su duración es limitada y su objetivo es alcanzar los resultados propuestos dentro de un plazo específico.
-
-            .bg-color-white.p-3(x="78.5%" y="75%" numero="+")
-              h5 02. Resultado único
-              p Un proyecto busca generar un producto, servicio o resultado único y distintivo. A diferencia de las operaciones rutinarias, los proyectos no son repetitivos.
-              
-            .bg-color-white.p-3(x="57%" y="65%" numero="+")
-              h5 03. Objetivos específicos
-              p Los proyectos se diseñan para cumplir metas claras y concretas, que responden a necesidades específicas, como resolver un problema o aprovechar una oportunidad.
-              
-            .bg-color-white.p-3(x="22%" y="65%" numero="+")
-              h5 04. Multidisciplinariedad
-              p Los proyectos suelen involucrar a equipos de diferentes disciplinas y áreas de especialización, abordando el problema o la oportunidad desde diversas perspectivas.
-              
-            .bg-color-white.p-3(x="28%" y="44%" numero="+")
-              h5 05. Incertidumbre y riesgo
-              p Todos los proyectos implican un grado de incertidumbre, ya que se desarrollan en entornos cambiantes. La gestión de riesgos es clave para minimizar los impactos negativos.
-              
-            .bg-color-white.p-3(x="64.5%" y="45%" numero="+")
-              h5 06. Recursos limitados
-              p Un proyecto se lleva a cabo con recursos finitos (tiempo, dinero, personas, materiales, etc.) que deben administrarse eficientemente para alcanzar los objetivos.
-              
-            .bg-color-white.p-3(x="57%" y="26%" numero="+")
-              h5 07. Progresividad
-              p Los proyectos se desarrollan en fases o etapas, donde se monitorean avances y se realizan ajustes conforme se ejecutan las actividades planificadas.
-                
-
-    #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] ¿Qué es la gestión de proyectos?
-
-    .row.align-items-stretch.mb-5
-      .col-lg-8
-        .bg-color-2.p-4(data-aos="fade-left").mb-4.h-100
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Un proyecto debe permitir transformar una idea general en un producto o servicio específico. Sin embargo, no es necesario que siempre culmine con la producción o implementación de dicho producto o servicio, ya que puede limitarse únicamente a su diseño. Es decir, un proyecto puede enfocarse solo en el diseño, o en la ejecución, o en ambos aspectos. Por ejemplo, en el desarrollo de aplicaciones, un proyecto podría centrarse en la creación conceptual, identificando las necesidades del cliente, alineándose con su estrategia, recopilando requisitos y definiendo las funcionalidades. No obstante, la implementación final del diseño podría ser realizada por otra organización.
-
-      .col-lg-4
-        figure(data-aos="fade-right").h-100
-          img(src="@/assets/curso/tema1/9.png", alt="")
-
-    p(data-aos="fade-left") La gestión de proyectos requiere un enfoque estructurado que abarca diversas acciones clave. Estas son desglosadas en la siguiente tabla para facilitar su comprensión:
-    
-
-    .row.mb-5
-      .col-lg-4
-        figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/10.png", alt="Texto que describa la imagen")
-      .col-lg-8
-        AcordionA(tipo="b")
-          .div(titulo="Identificación de requisitos")
-            p Es fundamental documentar y cuantificar las necesidades y expectativas de los clientes y demás partes interesadas de manera clara.
-
-          .div(titulo="Establecimiento de objetivos")
-            p Los objetivos deben ser específicos, medibles, alcanzables, relevantes y definidos en un tiempo determinado, siguiendo los criterios SMART.
-
-          .div(titulo="Equilibrio de factores")
-            p La gestión de proyectos implica equilibrar elementos como el alcance, el tiempo, el presupuesto, la calidad y los recursos asignados.
-
-          .div(titulo="Naturaleza multidisciplinar")
-            p Requiere la participación de equipos provenientes de distintas disciplinas y áreas de especialización, lo que permite abordar problemas y oportunidades desde múltiples perspectivas.
-
-          .div(titulo="Habilidades especializadas")
-            p Involucra conocimientos técnicos y competencias específicas para gestionar las diversas etapas y desafíos del proyecto.
-
-    .bg-color-2.mb-5(data-aos="fade-up")
+    .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #cff7e4")
       .row.justify-content-center.align-items-center
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") Este enfoque asegura una gestión efectiva y colaborativa, maximizando las probabilidades de éxito del proyecto. La gestión de las restricciones del proyecto es un aspecto esencial para una gestión efectiva. El concepto de triple restricción es tradicionalmente utilizado para referirse a los elementos críticos o restricciones en el proyecto, que deben gestionarse de manera equilibrada: el alcance, el costo y el tiempo. Este concepto se representa visualmente mediante un triángulo equilátero, en el que cada vértice corresponde a uno de estos elementos. El arte de la gestión radica en mantener el equilibrio entre estos factores, que están claramente interrelacionados y son interdependientes.
+            p.mb-0(data-aos="fade-up") Cuando realizas una investigación científica, estás emprendiendo un proceso metódico destinado a resolver preguntas o problemas de manera estructurada y crítica. No se trata solo de recopilar información, sino de descubrir aspectos novedosos, confirmar teorías o desarrollar conocimientos existentes. Este tipo de investigación se caracteriza por su rigor metodológico y su búsqueda de objetividad. A continuación, se exponen los enfoques de distintos autores sobre este tema.
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema1/11.png', alt='')
-
-    p(data-aos="fade-left") #[strong Figura 1.] Triángulo  de restricciones
-
-    .bg-color-3.px-4.py-5.mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-8
-          figure
-            img(src='@/assets/curso/tema1/12.png', alt='', style="max-width: 515px").mx-auto
-
-    .bg-full-width.bg-fondo-2
-      .px-4.px-md-5.pb-md-3
-
-        TabsC.color-acento-contenido.mb-5
-          .tabs-content.border.px-4.p-md-5.py-3(titulo="Alcance" :icon="require('@/assets/bullets/tab-1.svg')" )
-            .row
-              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-                h4 Alcance
-                p Se refiere a la definición precisa de los límites del proyecto, es decir, lo que se incluye y lo que se excluye. Una restricción en el alcance puede surgir con cambios en los requisitos del cliente o en las expectativas de las partes interesadas, lo que podría incrementar el trabajo requerido y complicar la gestión del proyecto.
-            
-              .col-md-6.col-lg-5.col-xl-4
-                figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema1/13.png', alt='')
-          .tabs-content.border.px-4.p-md-5.py-3(titulo="Costo" :icon="require('@/assets/bullets/tab-2.svg')" )
-            .row
-              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-                h4 Costo
-                p Implica el presupuesto asignado para llevar a cabo el proyecto. Cualquier incremento en los gastos, ya sea por recursos adicionales, cambios en el alcance o imprevistos, puede afectar la viabilidad financiera del proyecto. Es esencial gestionar y controlar los costos para evitar desviaciones que comprometan el éxito del proyecto.
-            
-              .col-md-6.col-lg-5.col-xl-4
-                figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema1/14.png', alt='')
-
-          .tabs-content.border.px-4.p-md-5.py-3(titulo="Tiempo" :icon="require('@/assets/bullets/tab-3.svg')" )
-            .row
-              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-                h4 Tiempo
-                p Se refiere a los plazos establecidos para completar el proyecto. El gestor del proyecto debe mantener el cronograma planificado, ya que los retrasos pueden generar un efecto dominó, impactando el alcance y el costo. La gestión del tiempo implica la coordinación eficiente de actividades y recursos para cumplir los plazos sin sacrificar la calidad del resultado final.    
-              .col-md-6.col-lg-5.col-xl-4
-                figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema1/15.png', alt='', style="width: 100%;")
-
-
-        p(data-aos="fade-left") El éxito de un proyecto no siempre está asegurado y su medición varía según cada situación. Los motivos más comunes de fracaso incluyen: 
-
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-6.col-xl-3.mb-4(data-aos="zoom-in-up")
-            .custom-image-card-2.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/16.png" alt="")
+            img(src='@/assets/curso/temas/4.png', alt='')
+    h3 Definición de investigación científica
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/5.png', alt='')
+      .col-lg-8
+        p.mb-4 La investigación científica es un proceso esencial para el avance del conocimiento. Implica una indagación sistemática y organizada orientada al descubrimiento, interpretación o revisión de hechos, cuyos resultados se alcanzan mediante la aplicación del método científico. Según Avendaño (2020, p. 4), es "un proceso sistemático que permite abordar la realidad de manera rigurosa y metódica, con el propósito de construir nuevo conocimiento y transformar la comprensión del mundo". Por su parte, Arispe Alburqueque et al. (2020) describen la investigación científica como "un proceso sistemático, crítico y empírico que se aplica para estudiar un fenómeno o resolver un problema, con el objetivo de generar conocimiento mediante el método científico" (p. 17).
+        .bloque-texto-c.p-4(style.d-flex="background-color: #f5e9fe")
+          i.fas.fa-quote-left.mb-4(style='color: #A530FE')
+          h3.mb-2 Resaltan p.mb-0u enfoque transformador, señalando que "la investigación científica es un proceso riguroso y sistemático para la búsqueda y creación de nuevos conocimientos, utilizando métodos específicos que permiten abordar la realidad desde una perspectiva científica" (p. 28).
+          span (Galarza Ramírez et al. (2024)
+    p.mb-4 Gregorio Rojas (2023) añade un matiz innovador, afirmando que "la investigación científica desarrolla un proceso sistemático de indagación, recolección, organización, análisis e interpretación de información sobre un tema, con el objetivo de generar nuevos conocimientos o validar los existentes" (p. 34). De igual forma, Aznar Díaz et al. (2021) subrayan que los desafíos actuales de la investigación exigen considerar la diversidad y la inclusión como elementos esenciales.
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.p-4.h-100(style="background-color:#e7eff8 ")
+          p.mb-0 En cuanto a su impacto en la sociedad del conocimiento, Marín Marín y Boffo (2021) sostienen que la investigación trasciende el ámbito académico para convertirse en un motor de innovación y cambio social. Solano Altaba et al. (2021) enfatizan que la investigación no solo genera conocimiento, sino que también promueve su transferencia y aplicación práctica en beneficio de la sociedad.
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/6.png', alt='')
+      .col-lg-4
+        .tarjeta.p-4.h-100(style="background-color:#c2f1f8")
+          p.mb-0 La investigación científica es un proceso ordenado y riguroso que busca generar nuevos saberes mediante técnicas como la observación, la experimentación y el análisis. Este proceso se guía por principios fundamentales que aseguran la validez y confiabilidad de los resultados obtenidos.
+    p.mb-4 Aunque sigue una estructura general, la investigación científica es flexible y dinámica, lo que implica revisiones y adaptaciones según las necesidades del proyecto. Cada etapa debe realizarse con rigor metodológico para garantizar la calidad de los resultados, considerando posibles ajustes durante el desarrollo del estudio, dependiendo de los requerimientos específicos de la investigación.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 1.
+      span Etapas generales del proceso de investigación científica.
+    img.mb-5(src='@/assets/curso/temas/7.svg', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Formulación de la pregunta / problema") Es el punto de partida donde se define la pregunta o problema a investigar. Funciona como una brújula que orienta todo el proceso.
+          p.text-small(numero="2" titulo="Planteamiento de hipótesis") Se propone una hipótesis como respuesta tentativa al problema, basada en conocimientos previos y razonamiento lógico.
+          p.text-small(numero="3" titulo="Revisión de literatura") Implica explorar y analizar el conocimiento existente sobre el tema, sintetizando información relevante para contextualizar la investigación.
+          p.text-small(numero="4" titulo="Diseño metodológico") Consiste en desarrollar un plan detallado que guiará el proceso de recolección y análisis de datos. Es el mapa de ruta de la investigación.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/8.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/9.png', alt='')
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p.text-small(numero="5" titulo="Recolección de los datos") En esta etapa se obtienen los datos necesarios mediante la aplicación de instrumentos y técnicas previamente definidos.
+          p.text-small(numero="6" titulo="Análisis e interpretación de resultados") Se procesan los datos recolectados para transformarlos en conocimiento significativo, armando un "rompecabezas" con la información obtenida.
+          p.text-small(numero="7" titulo="Conclusiones y divulgación de resultados") Es la fase final, donde se sintetizan los hallazgos y se comparten con la comunidad científica o el entorno de aplicación para contribuir al conocimiento global.
+    p.mb-4 A partir de las definiciones mencionadas anteriormente y con el propósito de facilitar la comprensión de este concepto, se puede considerar la investigación científica como una actividad que permite:
+    .bg-full-width.p-5.mb-5(style="background-color: #e7eff8 ")
+      .row.justify-content-center.mb-5
+        .col-lg-5.mb-lg-0.mb-3
+          ol.lista-ol--cuadro(data-aos="fade-up")
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: #b76fee")
+                span 1
+              | Descubrir nuevos hechos o relaciones.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: #b76fee")
+                span 2
+              | Resolver problemas específicos.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: #b76fee")
+                span 3
+              | Desarrollar teorías explicativas.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: #b76fee")
+                span 4
+              | Ampliar el conocimiento existente.
+            li 
+              .lista-ol--cuadro__vineta(style="background-color: #b76fee")
+                span 5
+              | Verificar y comprobar hipótesis.
+        .col-lg-5.col-7: img(src='@/assets/curso/temas/10.svg', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto
+              img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 La investigación científica tipos y metodologías
+                  p Para ampliar sus conocimientos en los aspectos de investigación que ha estudiado, se le sugiere explorar el siguiente vídeo.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-arrow-right
+    p.mb-4 La investigación científica se caracteriza por su rigurosidad metodológica y su enfoque en la imparcialidad. No es una actividad casual ni espontánea, sino que demanda una planificación cuidadosa y una ejecución sistemática.
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3 .d-flex
+        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #c2f1f8 " )
+            .row.align-items-center.mb-0r
+              .col-lg-auto
+                img(src="@/assets/curso/temas/11.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 Es un proceso ordenado y metódico orientado a obtener nuevos conocimientos o resolver problemas mediante la recopilación, el análisis y la interpretación de datos. Este proceso puede desarrollarse en diversas disciplinas, como las ciencias exactas, sociales y humanas. Por ello, la investigación se considera esencial para el progreso del conocimiento humano y la resolución de los problemas que enfrenta la sociedad.
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.png', alt='')
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.1 Propósitos de la investigación científica
+    p.mb-4 La investigación científica, como se mencionó previamente, es una disciplina esencial en un mundo que constantemente presenta nuevos desafíos. Su impacto se refleja en fines superiores que tienen alta relevancia para la sociedad. Estos impactos incluyen la generación de conocimiento, la resolución de problemas y la innovación y el desarrollo, aspectos que transforman y benefician a la humanidad.
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/13.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0 No haber logrado los objetivos y resultados planteados.
-          .col-lg-6.col-xl-3.mb-4(data-aos="zoom-in-down")
-            .custom-image-card-2.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/17.png" alt="")
+                h4.mb-2.text-center Generación de conocimiento
+                p.mb-0.text-center Realiza una contribución destacable al permitirnos entender fenómenos fuera de nuestro alcance previamente, ampliando nuestro conocimiento sobre el mundo que nos rodea. Incluye: desarrollo de nuevas teorías, validación de hipótesis, descubrimiento de relaciones causales y establecimiento de leyes científicas.
+      .col-lg-4.mb-lg-0.mb-3
+        .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/14.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0 Haber excedido el tiempo, costo o recursos estipulados.
-          .col-lg-6.col-xl-3.mb-4(data-aos="zoom-in-down")
-            .custom-image-card-2.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/18.png" alt="")
+                h4.mb-2.text-center Resolución de problemas
+                p.mb-0.text-center Permite dar respuesta a nuevos retos como enfermedades o necesidades globales, actuando como una herramienta para superarlos o mejorarlos. Ejemplos: identificación de necesidades, desarrollo de soluciones, evaluación de intervenciones y optimización de procesos.
+      .col-lg-4.mb-lg-0.mb-3
+        .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/15.png" alt="")
               .custom-image-card__text.p-4
-                p.mb-0 No alcanzar los estándares de calidad esperados.
-          .col-lg-6.col-xl-3.mb-4(data-aos="zoom-in-down")
-            .custom-image-card-2.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema1/19.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0 La insatisfacción del cliente con el resultado final.
-
-    .bg-full-width.bg-color-4
+                h4.mb-2.text-center Innovación y desarrollo
+                p.mb-0.text-center Facilita la creación y desarrollo de nuevas tecnologías, herramientas o soluciones que optimizan las actividades sociales o empresariales. Incluye: creación de nuevas tecnologías, mejora de procesos existentes, desarrollo de productos y optimización de servicios.
+    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #e7eff8")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7
-            h2.mb-4(data-aos="flip-up") Tipos de proyectos
-            p.mb-4(data-aos="fade-right") En el documento Tipos de Proyectos , se presentan clasificaciones según su naturaleza, área funcional y fines, destacando proyectos dependientes, sociales, productivos y de infraestructura, entre otros. Cada tipo aborda necesidades específicas con ejemplos prácticos. Se invita a consultar el documento para ampliar esta información.
-
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            h2.mb-4(data-aos="flip-up") Características de la investigación
+            p.mb-4(data-aos="fade-right") En el documento Características de la Investigación, se destaca que esta es sistemática, objetiva, verificable, empírica y racional. Estas cualidades aseguran su rigor y validez en la generación de conocimiento. Se invita a revisar el documento para conocer cómo estas características estructuran el proceso investigativo, desde la formulación del problema hasta la validación de los hallazgos.
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Características_de_la_investigación.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Tipos de proyectos
+                p <strong>Anexo. </strong> Características de la investigación.
 
           .col-lg-5
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/20.png', alt='')
+              img(src='@/assets/curso/temas/16.png', alt='')
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 El sujeto y el objeto en la investigación
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/17.png', alt='')
+      .col-lg-8 
+        p.mb-4 Ahora que se han comprendido los conceptos clave, es momento de profundizar en los dos actores fundamentales de toda investigación: el sujeto y el objeto. El sujeto es el investigador, quien lleva a cabo la indagación con una perspectiva clara y metodológica. Es esencial mantener una postura imparcial, evitando cualquier sesgo que pueda influir en los resultados del estudio. Por otro lado, el objeto de investigación se refiere a aque.d-flexllo que se está estudiando, como un fenómeno, una población, un problema o un conjunto de datos.
+        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #cff7e4 " )
+            .row.align-items-center.mb-0r
+              .col-lg-auto
+                img(src="@/assets/curso/temas/18.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 Para el investigador, resulta fundamental entender la importancia del objeto de investigación. Según Arispe Alburqueque et al. (2020), "el objeto de investigación representa el fenómeno o problema específico que deseas estudiar, siendo este el eje central que guiará todo tu proceso investigativo" (p. 45). Asimismo, Hervás Gómez y Rodríguez-Gallego (2020) afirman que "esta comprensión resulta esencial para establecer metodologías apropiadas y generar conocimiento significativo" (p. 78).
+    p.mb-4 La relación entre el sujeto y el objeto es crucial, ya que exige observar y analizar el objeto de estudio de manera objetiva y sistemática. Al reconocer el papel que desempeña el sujeto y comprender la naturaleza del objeto de investigación, es posible desarrollar un proyecto investigativo más sólido y confiable.
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto
+              img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Sujeto y objeto de estudio
+                  p Para ampliar conocimientos sobre los aspectos de investigación estudiados, se sugiere explorar el siguiente video:
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-arrow-right
+    h2 El sujeto de investigación (Investigador)
+    p.mb-4 La investigación científica exige que el sujeto asuma diversas responsabilidades a lo largo de todas las etapas del proyecto. Estas incluyen planificar y diseñar el estudio, seleccionar y aplicar métodos adecuados, recolectar y analizar datos, interpretar los resultados obtenidos y, finalmente, generar conclusiones que contribuyan al conocimiento existente. Estas responsabilidades se agrupan en tres etapas principales: planificación, ejecución y análisis de resultados.
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Planificación" :icono="require('@/assets/curso/temas/icono.svg')" style="background-color: #f3f3f3 ")
+        .row.justify-content-center.mb-5
+          .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.png', alt='')
+          .col-lg-7
+            h4 Planificación
+            p.mb-0 Consiste en el diseño de la investigación, el establecimiento de objetivos, la selección de metodologías y la gestión de recursos. Estas acciones permiten sentar las bases para el desarrollo del proyecto.
+      .py-4.py-md-5(titulo="Ejecución" :icono="require('@/assets/curso/temas/icono.svg')" style="background-color: #f3f3f3 ")
+        .row.justify-content-center.mb-5
+          .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
+          .col-lg-7
+            h4 Ejecución
+            p.mb-0 Incluye la recolección de datos, la aplicación de métodos seleccionados, el control de los procesos y la documentación de cada paso. Esta etapa asegura que la información obtenida sea válida y confiable.
+      .py-4.py-md-5(titulo="Análisis de resultados" :icono="require('@/assets/curso/temas/icono.svg')" style="background-color: #f3f3f3 ")
+        .row.justify-content-center.mb-5
+          .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/21.png', alt='')
+          .col-lg-7
+            h4 Análisis de resultados
+            p.mb-0 Implica el procesamiento de los datos, la interpretación de resultados, la elaboración de conclusiones y la generación de teorías. Este análisis convierte los datos recolectados en conocimiento significativo.
+    p.mb-4 Es importante señalar que el sujeto de investigación debe contar con competencias específicas que le permitan cumplir con estas responsabilidades. Estas competencias pueden clasificarse en técnicas, intelectuales y éticas.
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        div.bg-color-white.box-shadow.px-4.py-5.h-100.hover
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/temas/22.svg"
+            alt=""
+            style="width: 90px"
+          )
+          h4.text-center Técnicas
+          p.mb-0.text-center Incluyen el dominio metodológico, habilidades analíticas, manejo de instrumentos y procesamiento de datos. Estas habilidades aseguran la correcta ejecución de las tareas técnicas.
+      .col-lg-4.mb-lg-0.mb-3
+        div.bg-color-white.box-shadow.px-4.py-5.h-100.hover
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/temas/23.svg"
+            alt=""
+            style="width: 90px"
+          )
+          h4.text-center Intelectuales
+          p.mb-0.text-center Comprenden el pensamiento crítico, la capacidad de síntesis, el razonamiento lógico y la creatividad, permitiendo abordar problemas de manera innovadora y estructurada.
+      .col-lg-4.mb-lg-0.mb-3
+        div.bg-color-white.box-shadow.px-4.py-5.h-100.hover
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/temas/24.svg"
+            alt=""
+            style="width: 90px"
+          )
+          h4.text-center Éticas
+          p.mb-0.text-center Involucran la honestidad intelectual, la responsabilidad, la objetividad y la integridad, fundamentales para garantizar la credibilidad y la validez de la investigación.
+    h2 El objeto de investigación (fenómeno a estudiar)
+    p.mb-4 El objeto de investigación se define como el fenómeno o problema que el investigador estudia, y debe ser observable y medible, además de estar delimitado en tiempo y espacio. Este objeto puede clasificarse como material, inmaterial, social, virtual o mixto, según sus características y naturaleza. A continuación, se presentan sus descripciones:
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        LineaTiempoD.color-secundario
+          div(numero="1" titulo="Material (tangibles)")
+            p.mb-4 Son aquellos con existencia física, perceptibles por los sentidos y definidos por propiedades físicas específicas. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Características:] Pueden ser medidos, cuantificados, y observados directamente; ocupan un espacio definido. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Ejemplos:] Elementos naturales: minerales, plantas, organismos vivos, estructuras geológicas. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Objetos fabricados:] dispositivos tecnológicos, construcciones, herramientas, productos manufacturados.
+          div(numero="2" titulo="Inmaterial (abstractos)")
+            p.mb-4 Carecen de existencia física, pero son reales y estudiados mediante métodos específicos. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Características:] Construcciones mentales o teóricas, comprendidas por el intelecto y representadas mediante símbolos o modelos. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Ejemplos:] Conceptos teóricos: teorías científicas, modelos matemáticos, principios filosóficos, sistemas de pensamiento. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 Fenómenos abstractos: ideas, valores, creencias, conceptos.
+          div(numero="3" titulo="Social")
+            p.mb-4 Fenómenos surgidos de la interacción humana y las dinámicas sociales. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Características:] Contextualizados cultural e históricamente, dinámicos y cambiantes, requieren enfoques multidisciplinarios. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Ejemplos:] Fenómenos culturales: tradiciones, rituales, prácticas culturales, manifestaciones artísticas. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Comportamientos colectivos:] movimientos sociales, tendencias, patrones de conducta, interacciones grupales.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/25.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/26.png', alt='')
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          div(numero="4" titulo="Virtuales o digitales")
+            p.mb-4 Existen en entornos digitales, combinando elementos materiales e inmateriales. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Características:] Son dinámicos, interactivos, accesibles mediante tecnología, y requieren metodologías innovadoras. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Ejemplos:] Contenidos digitales: redes sociales, sitios web, bases de datos, aplicaciones. 
+
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Interacciones virtuales:] comunidades en línea, realidad virtual, cibercultura, comportamiento digital.
+          div(numero="5" titulo="Mixtos o híbridos")
+            p.mb-4  Combinan características de varias categorías, abordando fenómenos complejos con enfoques integrales
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Características:] Integran múltiples dimensiones, presentan complejidad metodológica y necesitan abordajes interdisciplinarios. 
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Ejemplos:] Sistemas sociotécnicos: ciudades inteligentes, redes de comunicación, sistemas educativos, organizaciones modernas. 
+              li.d-flex
+                i.fas.fa-angle-left
+                p.mb-0 #[b Fenómenos contemporáneos:] educación virtual, trabajo remoto, comercio electrónico, innovación social.
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.3 Ética en la investigación científica
+    p.mb-4 La ética es un pilar fundamental en la investigación científica, asegurando que se respeten los derechos de los participantes, se mantenga la integridad en los procesos y se promueva la transparencia al compartir los resultados. Como investigador, tiene la responsabilidad de utilizar el conocimiento que genera de manera responsable, sostenible y honesta, evitando causar daños y maximizando los beneficios para la sociedad.
+    .bg-full-width.bg-slyder.p-5.mb-5
+      SlyderA(tipo='b').bg-white
+        .row.justify-content-center.mb-5.p-5
+          .col-lg-7.mb-lg-0.mb-3
+            h4 Consentimiento informado
+            p.mb-0 Antes de involucrar a los participantes, debe informar claramente sobre la naturaleza del estudio y obtener su consentimiento explícito. Esto garantiza que participen de manera voluntaria y con pleno conocimiento de los propósitos y procedimientos de la investigación.
+          .col-lg-5.col-7: img(src='@/assets/curso/temas/27.png', alt='')
+        .row.justify-content-center.mb-5.p-5
+          .col-lg-7.mb-lg-0.mb-3
+            h4 Confidencialidad
+            p.mb-0 Es su responsabilidad proteger la privacidad de los participantes y garantizar que sus datos personales sean manejados con la máxima confidencialidad, evitando cualquier uso indebido.
+          .col-lg-5.col-7: img(src='@/assets/curso/temas/28.png', alt='')
+        .row.justify-content-center.mb-5.p-5
+          .col-lg-7.mb-lg-0.mb-3
+            h4 Integridad
+            p.mb-0 Debe demostrar honestidad y rigor en todos los aspectos de su investigación, desde la recolección de datos hasta la presentación de los resultados, evitando cualquier tipo de manipulación o falsificación.
+          .col-lg-5.col-7: img(src='@/assets/curso/temas/29.png', alt='')
+        .row.justify-content-center.mb-5.p-5
+          .col-lg-7.mb-lg-0.mb-3
+            h4 Responsabilidad social
+            p.mb-0 Su investigación debe enfocarse en aportar beneficios tangibles a la sociedad, promoviendo un impacto positivo y evitando cualquier acción que pueda resultar en perjuicio o daño social, cultural o ambiental.
+          .col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
+    .bg-color-1.p-4.mb-5(data-aos="fade-left" style="background-color: #d6f5fa " )
+      .row.align-items-center.mb-0
+        .col-lg-auto
+          img(src="@/assets/curso/temas/31.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 Estos principios son esenciales para garantizar que la práctica investigativa sea íntegra, respetuosa y beneficie a todos los involucrados, asegurando el cumplimiento de los valores éticos fundamentales.
+
 </template>
 
 <script>

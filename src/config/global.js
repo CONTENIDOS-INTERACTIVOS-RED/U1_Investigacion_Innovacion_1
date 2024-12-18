@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos del diseño de proyectos.',
+    tituloUnidad: 'Fundamentos de la investigación científica',
   },
   menuPrincipal: {
     menu: [
@@ -15,14 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición de proyecto y tipos de proyectos',
+        titulo: 'Definición y características de la investigación científica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '¿Qué es la gestión de proyectos?',
+            titulo: 'Propósitos de la investigación científica',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'El sujeto y el objeto en la investigación',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Ética en la investigación científica',
+            hash: 't_1_3',
           },
         ],
       },
@@ -30,42 +42,24 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Fases del ciclo de vida del proyecto.',
+        titulo: 'Tipos de investigación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Planeación',
+            titulo: 'Según sus datos: cualitativa, cuantitativa',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Ejecución del proyecto',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Seguimiento y control del proyecto y de las tareas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Cierre del proyecto',
-            hash: 't_2_4',
           },
         ],
       },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Objetivos, indicadores y resultados esperados',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'tema3',
+      //   icono: 'far fa-file-alt',
+      //   numero: '3',
+      //   titulo: 'Objetivos, indicadores y resultados esperados',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
