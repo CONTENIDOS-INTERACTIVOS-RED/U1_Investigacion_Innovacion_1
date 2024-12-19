@@ -99,8 +99,10 @@
               .col-lg
                 p.mb-0 Es un proceso ordenado y metódico orientado a obtener nuevos conocimientos o resolver problemas mediante la recopilación, el análisis y la interpretación de datos. Este proceso puede desarrollarse en diversas disciplinas, como las ciencias exactas, sociales y humanas. Por ello, la investigación se considera esencial para el progreso del conocimiento humano y la resolución de los problemas que enfrenta la sociedad.
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.png', alt='')
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Propósitos de la investigación científica
+
+    #t_1_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.1] Propósitos de la investigación científica
+
     p.mb-4 La investigación científica, como se mencionó previamente, es una disciplina esencial en un mundo que constantemente presenta nuevos desafíos. Su impacto se refleja en fines superiores que tienen alta relevancia para la sociedad. Estos impactos incluyen la generación de conocimiento, la resolución de problemas y la innovación y el desarrollo, aspectos que transforman y benefician a la humanidad.
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
@@ -136,8 +138,10 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/16.png', alt='')
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 El sujeto y el objeto en la investigación
+    
+    
+    #t_1_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.2] El sujeto y el objeto en la investigación
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/17.png', alt='')
       .col-lg-8 
@@ -292,8 +296,8 @@
               li.d-flex
                 i.fas.fa-angle-left
                 p.mb-0 #[b Fenómenos contemporáneos:] educación virtual, trabajo remoto, comercio electrónico, innovación social.
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Ética en la investigación científica
+    #t_1_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.3] Ética en la investigación científica
     p.mb-4 La ética es un pilar fundamental en la investigación científica, asegurando que se respeten los derechos de los participantes, se mantenga la integridad en los procesos y se promueva la transparencia al compartir los resultados. Como investigador, tiene la responsabilidad de utilizar el conocimiento que genera de manera responsable, sostenible y honesta, evitando causar daños y maximizando los beneficios para la sociedad.
     .bg-full-width.bg-slyder.p-5.mb-5
       SlyderA(tipo='b').bg-white
@@ -324,6 +328,63 @@
         .col-lg
           p.mb-0 Estos principios son esenciales para garantizar que la práctica investigativa sea íntegra, respetuosa y beneficie a todos los involucrados, asegurando el cumplimiento de los valores éticos fundamentales.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/174693?page=1" target="_blank" rel="noopener noreferrer") Arispe Alburqueque, D., Galarza Ramírez, J., Santoveña Casal, S., Solano Altaba, M., & Marín Marín, J. A. (2020). Fundamentos de la investigación científica. Universidad Nacional Autónoma de México.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/177033?page=4" target="_blank" rel="noopener noreferrer") Avendaño, W. R. (2020). La investigación científica: Una introducción práctica. Editorial Siglo XXI.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218471?page=3" target="_blank" rel="noopener noreferrer") Aznar Díaz, I., Romero-Rodríguez, J. M., & Rodríguez-García, A. M. (2021). La investigación cualitativa en educación a través de la lente de género y diversidad. Revista Española de Pedagogía, 79(279), 7-22.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/249554?page=1" target="_blank" rel="noopener noreferrer") Galarza Ramírez, J., Gregorio Rojas, A., & Solano Altaba, M. (2024). Fundamentos y Métodos de Investigación Científica. Editorial UNAM.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218623?page=3" target="_blank" rel="noopener noreferrer") Hervás Gómez, C., & Rodríguez-Gallego, M. R. (2020). Investigación educativa: Procedimientos y técnicas. Editorial Síntesis.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/217471?page=4" target="_blank" rel="noopener noreferrer") Marín Marín, J. A., & Boffo, S. (2021). Challenges and innovations in educational research. European Educational Research Journal.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/219323?page=1" target="_blank" rel="noopener noreferrer") Molero Jurado, M. M., Pérez-Fuentes, M. C., Gázquez Linares, J. J., & Simón Márquez, M. M. (2021). Investigación cuantitativa en ciencias sociales. Editorial Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/253751?page=1" target="_blank" rel="noopener noreferrer") Ronquillo Murrieta, A., Hervás Gómez, C., & Simón Márquez, M. M. (2024). Métodos y Técnicas de Investigación en Ciencias Sociales. Editorial UNAM.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/173777?page=1" target="_blank" rel="noopener noreferrer") Santoveña Casal, S., Aznar Díaz, I., & Romero-Rodríguez, J. M. (2020). La ética en la investigación social. Revista Española de Pedagogía, 78(275), 231-247.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/217471?page=4" target="_blank" rel="noopener noreferrer") Solano Altaba, M., Marín Marín, J. A., & Arispe Alburqueque, D. (2021). La transferencia del conocimiento en la investigación universitaria. Revista Española de Pedagogía, 79(279), 317-334.
+            
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://www.youtube.com/watch?v=Vt1owKXWg2E&t=443s" target="_blank" rel="noopener noreferrer") Universidad Continental. [Universidad Continental]. (2021). Paradigmas y tipos de investigación.
+
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://www.youtube.com/watch?v=Vt1owKXWg2E&t=443s" target="_blank" rel="noopener noreferrer") Videos YouTube Informador. [Videos YouTube Informador]. (2018). Sujeto y Objeto de Estudio.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

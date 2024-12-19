@@ -97,15 +97,161 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arispe Alburqueque, D., Galarza Ramírez, J., Santoveña Casal, S., Solano Altaba, M., & Marín Marín, J. A. (2020). Fundamentos de la investigación científica. Editorial Universidad Nacional Autónoma de México.',
+      link: '',
+    },
+    {
+      referencia:
+        'Avendaño, W. R. (2020). La investigación científica: Una introducción práctica. Editorial Siglo XXI.',
+      link: '',
+    },
+    {
+      referencia:
+        'Aznar Díaz, I., Romero-Rodríguez, J. M., & Rodríguez-García, A. M. (2021). La investigación cualitativa en educación a través de la lente de género y diversidad. Revista Española de Pedagogía, 79(278), 7-22.',
+      link: '',
+    },
+    {
+      referencia:
+        'Galarza Ramírez, J., Gregorio Rojas, A., & Solano Altaba, M. (2024). Fundamentos y Métodos de Investigación Científica. Editorial McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hervás Gómez, C., & Rodríguez-Gallego, M. R. (2020). Investigación educativa: Procedimientos y técnicas. Editorial Síntesis.',
+      link: '',
+    },
+    {
+      referencia:
+        'Marín Marín, J. A., & Boffo, S. (2021). Challenges and innovations in educational research. European Educational Research Journal, 20(2), 165-168.',
+      link: '',
+    },
+    {
+      referencia:
+        'Molero Jurado, M. M., Pérez-Fuentes, M. C., Gázquez Linares, J. J., & Simón Márquez, M. M. (2021). Investigación cuantitativa en ciencias sociales. Editorial Dykinson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ronquillo Murrieta, A., Hervás Gómez, C., & Simón Márquez, M. M. (2024). Métodos y Técnicas de Investigación en Ciencias Sociales. Editorial UNAM.',
+      link: '',
+    },
+    {
+      referencia:
+        'Santoveña Casal, S., Aznar Díaz, I., & Romero-Rodríguez, J. M. (2020). La ética en la investigación social. Revista Española de Pedagogía, 78(275), 233-247.',
+      link: '',
+    },
+    {
+      referencia:
+        'Simón Márquez, M. M., Molero Jurado, M. M., Pérez-Fuentes, M. C., & Gázquez Linares, J. J. (2022). Metodología de la investigación en ciencias sociales. Editorial Dykinson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Solano Altaba, M., Marín Marín, J. A., & Arispe Alburqueque, D. (2021). La transferencia del conocimiento en la investigación universitaria. Revista Española de Pedagogía, 79(279), 317-334.',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'PMBOK',
+      termino: 'Análisis de datos',
       significado:
-        '(Project Management Body of Knowledge) es un conjunto de estándares, mejores prácticas, guías y terminología para la gestión de proyectos, desarrollado por el Project Management Institute (PMI). El PMBOK proporciona un marco general que ayuda a los gestores de proyectos a aplicar procesos y técnicas para planificar, ejecutar, monitorear y completar proyectos de manera eficaz. Está compuesto por cinco grupos de procesos (inicio, planificación, ejecución, monitoreo y control, y cierre) y diez áreas de conocimiento.',
+        'proceso sistemático para examinar, organizar, transformar y modelar datos, con el objetivo de generar información de valor, conclusiones y apoyar la toma de decisiones.',
+    },
+    {
+      termino: 'Bibliografía',
+      significado:
+        'lista ordenada de todas las fuentes consultadas y citadas durante el proceso de investigación, siguiendo un formato específico de citación.',
+    },
+    {
+      termino: 'Base de datos',
+      significado:
+        'conjunto organizado de información científica y académica que permite la búsqueda y recuperación de documentos relevantes para la investigación.',
+    },
+    {
+      termino: 'Ciencia',
+      significado:
+        'sistema organizado de conocimientos y los procesos mediante los cuales se adquieren, verifican y refinan dichos conocimientos.',
+    },
+    {
+      termino: 'Conocimiento científico',
+      significado:
+        'conjunto de saberes derivados de la observación y el razonamiento, sistemáticamente estructurados y de los que se deducen principios y leyes generales.',
+    },
+    {
+      termino: 'Confiabilidad',
+      significado:
+        'nivel en que un instrumento produce resultados consistentes y coherentes en diferentes aplicaciones.',
+    },
+    {
+      termino: 'Diseño de investigación',
+      significado:
+        'plan o estrategia de trabajo para obtener la información que se desea con el fin de responder al planteamiento del problema.',
+    },
+    {
+      termino: 'Enfoque cualitativo',
+      significado:
+        'aproximación metodológica que realiza la toma de datos sin medición numérica para descubrir o afinar preguntas de investigación.',
+    },
+    {
+      termino: 'Enfoque cuantitativo',
+      significado:
+        'aproximación metodológica que realiza la toma de datos para probar hipótesis con base en la medición numérica y el análisis estadístico.',
+    },
+    {
+      termino: 'Hipótesis',
+      significado:
+        'proposición tentativa que propone una explicación de la relación entre dos o más variables y se somete a prueba.',
+    },
+    {
+      termino: 'Investigación científica',
+      significado:
+        'proceso metódico, organizado y objetivo, cuyo propósito es responder a una pregunta o hipótesis y así aumentar el conocimiento sobre algo desconocido.',
+    },
+    {
+      termino: 'Marco teórico',
+      significado:
+        'conjunto de conocimientos, definiciones y postulados relacionadas entre sí que presentan un punto de vista sistemático de fenómenos especificando relaciones entre variables.',
+    },
+    {
+      termino: 'Metodología',
+      significado:
+        'conjunto de operaciones y técnicas que se aplican de forma sistemática en la realización de un estudio.',
+    },
+    {
+      termino: 'Muestra',
+      significado:
+        'subconjunto representativo de una población sobre el cual se recolectarán datos.',
+    },
+    {
+      termino: 'Objetivos de investigación',
+      significado:
+        'enunciados que expresan lo que se pretende lograr con la investigación, estableciendo el alcance y la dirección del estudio.',
+    },
+    {
+      termino: 'Problema de investigación',
+      significado:
+        'situación, fenómeno o hecho que requiere una solución o explicación mediante la investigación científica.',
+    },
+    {
+      termino: 'Rigor científico',
+      significado:
+        'aplicación disciplinada del método científico, garantizando la calidad y objetividad de la investigación.',
+    },
+    {
+      termino: 'Técnicas de investigación',
+      significado:
+        'conjunto de rutinas y herramientas que sirven para el ejercicio de la ciencia o la gestión del conocimiento.',
+    },
+    {
+      termino: 'Variables',
+      significado:
+        'atributos que pueden cambiar en un fenómeno y cuyo cambio es susceptible de medirse u observarse.',
+    },
+    {
+      termino: 'Validez',
+      significado:
+        'grado en que un instrumento realmente mide la variable que pretende medir en un contexto determinado.',
     },
   ],
   complementario: [

@@ -18,8 +18,8 @@
       span Tipos de investigación científica.
     img.mb-4(src='@/assets/curso/temas/34.svg', alt='')
     p.mb-4 A continuación, se amplía la información relacionada con los criterios más usados para clasificar los tipos de la investigación científica:
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Según sus datos: cualitativa, cuantitativa
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1] Según sus datos: cualitativa, cuantitativa
     p.mb-4 La investigación puede clasificarse según su propósito y profundidad. Estas clasificaciones permiten abordar el fenómeno de estudio de manera estructurada, enfocándose en objetivos específicos y adoptando las metodologías adecuadas. A continuación, se describen las principales clasificaciones y sus características.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -143,7 +143,7 @@
                     span Descargar
                     i.fas.fa-arrow-right
     p.mb-4 Los métodos de investigación son técnicas y procedimientos sistemáticos para recopilar, analizar e interpretar datos. Pueden ser cualitativos, cuantitativos o mixtos, dependiendo del objetivo del estudio y del enfoque necesario para comprender o resolver el problema planteado.
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #e7eff8")
+    .bg-full-width.bg-color-2(style="background-color: #e7eff8")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -158,17 +158,59 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/42.png', alt='')
 
-    
-    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/174693?page=1" target="_blank" rel="noopener noreferrer") Arispe Alburqueque, D., Galarza Ramírez, J., Santoveña Casal, S., Solano Altaba, M., & Marín Marín, J. A. (2020). Fundamentos de la investigación científica. Editorial Universidad Nacional Autónoma de México.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/253751?page=1" target="_blank" rel="noopener noreferrer") Ronquillo Murrieta, A., Hervás Gómez, C., & Simón Márquez, M. M. (2024). Métodos y Técnicas de Investigación en Ciencias Sociales. Editorial UNAM.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/227822?page=1" target="_blank" rel="noopener noreferrer") Simón Márquez, M. M., Molero Jurado, M. M., Pérez-Fuentes, M. C., & Gázquez Linares, J. J. (2022). Metodología de la investigación en ciencias sociales. Editorial Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/249554?page=1" target="_blank" rel="noopener noreferrer") Galarza Ramírez, J., Gregorio Rojas, A., & Solano Altaba, M. (2024). Fundamentos y Métodos de Investigación Científica. Editorial McGraw-Hill.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/163526" target="_blank" rel="noopener noreferrer") Hervás Gómez, C., & Rodríguez-Gallego, M. R. (2020). Investigación educativa: Procedimientos y técnicas. Editorial Síntesis.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/173777?page=1" target="_blank" rel="noopener noreferrer") Santoveña Casal, S., Aznar Díaz, I., & Romero-Rodríguez, J. M. (2020). La ética en la investigación social. Revista Española de Pedagogía, 78(275), 231-247.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/253751?page=1" target="_blank" rel="noopener noreferrer") Ronquillo Murrieta, A., Hervás Gómez, C., & Simón Márquez, M. M. (2024). Métodos y Técnicas de Investigación en Ciencias Sociales. Editorial UNAM.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/173777?page=1" target="_blank" rel="noopener noreferrer") Santoveña Casal, S., Aznar Díaz, I., & Romero-Rodríguez, J. M. (2020). La ética en la investigación social. Revista Española de Pedagogía, 78(275), 231-247.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/227822?page=1" target="_blank" rel="noopener noreferrer") Simón Márquez, M. M., Molero Jurado, M. M., Pérez-Fuentes, M. C., & Gázquez Linares, J. J. (2022). Metodología de la investigación en ciencias sociales. Editorial Dykinson.
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://youtu.be/HQNq_TV2uhI?si=LqNsFqWHQnOX1Fw3" target="_blank" rel="noopener noreferrer") Vivas Málaga, P. [Crehana]. (2021, 15 de junio). La investigación científica tipos y metodologías
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
   name: 'Tema2',
-  components: {
-    BannerInterno,
-  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
