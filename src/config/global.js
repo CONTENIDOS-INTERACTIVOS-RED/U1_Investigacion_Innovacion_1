@@ -97,8 +97,7 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        '',
+      referencia: '',
       link: '',
     },
   ],
